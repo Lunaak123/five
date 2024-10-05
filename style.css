@@ -1,0 +1,80 @@
+/* General styling for both pages */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa; /* Light cyan background */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; /* White background for container */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+    text-align: center;
+    color: #00796b; /* Teal color for header */
+}
+
+.input-box, .operations {
+    background-color: #b2dfdb; /* Lighter teal for input and operations panels */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+label, button {
+    font-size: 16px;
+}
+
+#excel-url {
+    width: calc(100% - 130px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #00796b;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #00796b; /* Teal background for buttons */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004d40; /* Darker teal on hover */
+}
+
+.sheet-list {
+    margin-top: 20px;
+}
+
+.sheet-link {
+    display: inline-block;
+    margin: 5px 0;
+    color: #00796b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.sheet-link:hover {
+    color: #004d40; /* Darker teal on hover */
+    text-decoration: underline;
+}
+
+.sheet-content {
+    margin-top: 20px;
+    overflow-x: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
